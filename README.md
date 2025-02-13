@@ -25,7 +25,6 @@ curl -L https://github.com/immohika/dupignore/releases/latest/download/dupignore
 tar -xzf dupignore.tar.gz
 
 # Install system wide
-sudo mv dupignore /usr/local/bin/
 sudo install -Dm755 dupignore* /usr/bin/dupignore
 
 # Or install local
